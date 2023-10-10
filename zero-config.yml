@@ -1,0 +1,11 @@
+antora:
+  name: template-tutorial
+  dir: www
+  modules:
+    - name: index
+      label: "Overview"
+
+tabs:
+  - name: terminal
+    port: 443
+    path: /wetty
