@@ -1,5 +1,5 @@
 site:
-  title: "Change me your title lives as site.title in ./zero-touch-site.yml"
+  #  title: "Change me your title lives as site.title in ./zero-touch-site.yml"
   url: https://redhat-scholars.github.io/course-template
   start_page: modules::index.adoc
 
