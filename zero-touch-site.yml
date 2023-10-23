@@ -1,28 +1,16 @@
----
-runtime:
-  cache_dir: ./.cache/antora
-
 site:
-  title: Change Me to your Lab Title
+  title: "Change me your title lives as site.title in ./zero-touch-site.yml"
   url: https://redhat-scholars.github.io/course-template
-  start_page: modules::module-01.adoc
+  start_page: modules::index.adoc
 
 content:
   sources:
     - url: ./
       start_path: content
-
-asciidoc:
-  attributes:
-    release-version: master
-    page-pagination: true
-  extensions:
-    - ./content/lib/tab-block.js
-    - ./content/lib/remote-include-processor.js
-
 ui:
   bundle:
-    url: https://github.com/rhpds/nookbag-bundle/releases/download/v0.0.2/bundle.zip
+    url: https://github.com/tonykay/demo-gpte-classroom-ui/raw/main/releases/download/v0.0.2/ui-bundle.zip
+    # url: https://github.com/rhpds/nookbag-bundle/releases/download/v0.0.2/bundle.zip
     snapshot: true
   supplemental_files:
     - path: ./content/supplemental-ui
@@ -32,3 +20,6 @@ ui:
 
 output:
   dir: ./www
+
+runtime:
+  cache_dir: ./.cache/antora
