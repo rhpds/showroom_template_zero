@@ -1,0 +1,15 @@
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: index
+      label: "Overview"
+    - name: module-02
+      label: "Building an Application with rpms"
+    - name: module-03
+      label: "Managing an Application from GitHub"
+
+tabs:
+  - name: terminal
+    port: 443
+    path: /wetty

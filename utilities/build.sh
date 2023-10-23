@@ -2,5 +2,9 @@
 #
 
 echo "Starting build process..."
-podman run --platform linux/amd64 -v "./:/antora" antora/antora site.yml
+echo "Removing old site..."
+rm -rf ./www/*
+echo "Building new site..."
+# podman run --rm --name showroom-builder --platform linux/amd64 -v "./:/antora" docker.io/antora/antora zero-touch-site.yml
+podman run --rm --name showroom-builder --platform linux/amd64 -v "./:/antora" docker.io/antora/antora site.yml
 echo "Build process complete. Check the ./www folder for the generated site."

@@ -1,7 +1,4 @@
-name: template-tutorial
-title: Showroom base template
+name: modules
 version: master
 nav:
   - modules/ROOT/nav.adoc
-
-start_page: ROOT:index.adoc
