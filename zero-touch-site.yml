@@ -9,8 +9,8 @@ content:
       start_path: content
 ui:
   bundle:
-    url: https://github.com/tonykay/demo-gpte-classroom-ui/raw/main/releases/download/v0.0.2/ui-bundle.zip
-    # url: https://github.com/rhpds/nookbag-bundle/releases/download/v0.0.2/bundle.zip
+    # url: https://github.com/tonykay/demo-gpte-classroom-ui/raw/main/releases/download/v0.0.2/ui-bundle.zip
+    url: https://github.com/rhpds/nookbag-bundle/releases/download/v0.0.2/bundle.zip
     snapshot: true
   supplemental_files:
     - path: ./content/supplemental-ui
@@ -19,7 +19,7 @@ ui:
       contents: "static_files: [ .nojekyll ]"
 
 output:
-  dir: ./www
+  dir: ./www/www
 
 runtime:
   cache_dir: ./.cache/antora

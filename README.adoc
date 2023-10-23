@@ -1,13 +1,14 @@
 === Getting Started
 
-. Clone this repo
-. Run ./utilities/serve
+. Create a git repo from this template
+. Clone the repo and `cd` into it
+. Run ./utilities/lab-serve
 . Open http://localhost:8080 in your browser
-. Run ./utilities/build to build your html
-
+. Run ./utilities/lab-build to build your html
 
 Your lab should now update and on day 1 will look more or less like this:
 
+image::.images/lab-image.png[Lab Image]
 
 Now you are ready to go!  You can start editing the files in the `content/modules/ROOT/pages/` directory.
 
