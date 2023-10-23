@@ -16,3 +16,4 @@ fi
 tar -xf /tmp/nookbag.zip -C ./www/
 cp ./zero-touch-config.yml ./www/
 echo "To view the site locally, run the following command: utilities/serve.sh"
+echo "If already running then browse to http://localhost:8080/index.html"
