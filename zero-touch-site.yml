@@ -1,5 +1,6 @@
+---
 site:
-  #  title: "Change me your title lives as site.title in ./zero-touch-site.yml"
+  title: "Change me, your title lives as site.title in ./zero-touch-site.yml"
   url: https://redhat-scholars.github.io/course-template
   start_page: modules::index.adoc
 
@@ -9,7 +10,6 @@ content:
       start_path: content
 ui:
   bundle:
-    # url: https://github.com/tonykay/demo-gpte-classroom-ui/raw/main/releases/download/v0.0.2/ui-bundle.zip
     url: https://github.com/rhpds/nookbag-bundle/releases/download/v0.0.2/bundle.zip
     snapshot: true
   supplemental_files:
