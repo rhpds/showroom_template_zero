@@ -1,6 +1,3 @@
-include::_attributes.adoc[]
-
-
 = Managing an Application from GitHub
 
 In the first half of this workshop, we packaged an application into this portable container format manually using rpms.

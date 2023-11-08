@@ -5,11 +5,11 @@ antora:
   dir: www
   modules:
     - name: index
-      label: "Overview"
+      label: "Module 1"
     - name: module-02
-      label: "Building an Application with rpms"
+      label: "Module 2"
     - name: module-03
-      label: "Managing an Application from GitHub"
+      label: "Module 3"
 
 tabs:
   - name: terminal

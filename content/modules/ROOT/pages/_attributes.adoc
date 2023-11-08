@@ -1,6 +1,0 @@
-:experimental:
-:numbered:
-//:lab_name: Containerize your Application
-
-include::include_vars.adoc[]
-

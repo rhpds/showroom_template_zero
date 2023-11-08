@@ -1,5 +1,3 @@
-include::_attributes.adoc[]
-
 = Building an Application with rpms
 
 == Downloading the UBI
