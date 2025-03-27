@@ -1,10 +1,10 @@
 === Getting Started
 
 * Create a git repo from this template
-* Clone the repo and `cd` into it
-* Run ./utilities/lab-build to build your html
-* Run ./utilities/lab-serve to serve the html
-* Open http://localhost:8080 in your browser
+* Clone the repo and *cd* into it
+* Run *./utilities/lab-build* to build your html
+* Run *./utilities/lab-serve* to serve the html
+* Open *http://localhost:8080* in your browser
 
 Your lab should now update and it will look more or less like this:
 
