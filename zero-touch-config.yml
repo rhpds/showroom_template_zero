@@ -6,9 +6,9 @@ antora:
   modules:
     - name: index
       label: "Module 1"
-    - name: module_02
+    - name: module-02
       label: "Module 2"
-    - name: module_03
+    - name: module-03
       label: "Podman ps"
 
 tabs:
@@ -21,6 +21,3 @@ tabs:
   - name: ">_ rhel"
     port: 443
     path: /wetty
-  - name: "Cockpit"
-    port: 9943
-    path: "/cockpit"
