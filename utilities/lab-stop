@@ -2,5 +2,10 @@
 #
 
 echo "Stopping serve process..."
-podman kill showroom-httpd
+# Check if podman exists, otherwise use docker
+CONTAINER_CMD="docker"
+if command -v podman &> /dev/null; then
+    CONTAINER_CMD="podman"
+fi
+$CONTAINER_CMD kill showroom-httpd
 echo "Stopped serve process."

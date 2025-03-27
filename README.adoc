@@ -1,10 +1,18 @@
 === Getting Started
 
-. Create a git repo from this template
-. Clone the repo and `cd` into it
-. Run ./utilities/lab-serve
-. Open http://localhost:8080 in your browser
-. Run ./utilities/lab-build to build your html
+* Create a git repo from this template
+* Clone the repo and *cd* into it
+* Run the following command to build your html
+[.copyable]
+----
+./utilities/lab-build
+----
+* Run the following command to serve the html
+[.copyable]
+----
+./utilities/lab-serve
+----
+* Open *http://localhost:8080* in your browser
 
 Your lab should now update and it will look more or less like this:
 

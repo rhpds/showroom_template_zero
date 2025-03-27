@@ -6,7 +6,12 @@ echo "Removing old site..."
 rm -rf ./www/*
 
 echo "Building new site..."
-podman run --rm --name showroom-builder --platform linux/amd64 -v "./:/antora" docker.io/antora/antora zero-touch-site.yml
+# Check if podman exists, otherwise use docker
+CONTAINER_CMD="docker"
+if command -v podman &> /dev/null; then
+    CONTAINER_CMD="podman"
+fi
+$CONTAINER_CMD run --rm --name showroom-builder --platform linux/amd64 -v "./:/antora" docker.io/antora/antora zero-touch-site.yml
 cp ./zero-touch-config.yml ./www/
 
  if test -f "/tmp/nookbag.zip"; then
