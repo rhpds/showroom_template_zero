@@ -48,7 +48,8 @@ Now you are ready to go!  You can start editing the files in the `content/module
         └── partials                         # You can add partials here, reusable content inserted inline into your modules
             └── example_partial.adoc
 ----
-. Example: Module Playbook/Scripts Directory Structure
+
+. Playbook/Scripts Directory Structure
 +
 .tree output
 [source,shell]
