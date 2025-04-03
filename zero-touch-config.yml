@@ -12,9 +12,9 @@ antora:
       label: "Podman ps"
 
 tabs:
-  - name: ">_ Root"
+  - name: ">_ root"
     port: 443
-    path: /wetty
+    path: /tty1
     user: rhel
     host: bastion
 
