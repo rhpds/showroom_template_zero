@@ -15,9 +15,10 @@ tabs:
   - name: ">_ Root"
     port: 443
     path: /wetty
-    user: root
-    host: rhel
-    type: tty
-  - name: ">_ rhel"
-    port: 443
-    path: /wetty
+    user: rhel
+    host: bastion
+    type: wetty
+
+  # - name: ">_ rhel"
+  #   port: 443
+  #   path: /wetty
