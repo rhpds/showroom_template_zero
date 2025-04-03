@@ -15,5 +15,5 @@ tabs:
   - name: ">_ root"
     port: 443
     path: /tty1
-    user: rhel
+    user: root
     host: bastion
