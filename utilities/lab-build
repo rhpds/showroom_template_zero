@@ -11,7 +11,7 @@ CONTAINER_CMD="docker"
 if command -v podman &> /dev/null; then
     CONTAINER_CMD="podman"
 fi
-$CONTAINER_CMD run --rm --name showroom-builder --platform linux/amd64 -v "./:/antora" docker.io/antora/antora zero-touch-site.yml
+$CONTAINER_CMD run --rm --name showroom-builder --platform linux/amd64 -v "./:/antora:z" docker.io/antora/antora zero-touch-site.yml
 cp ./zero-touch-config.yml ./www/
 
  if test -f "/tmp/nookbag.zip"; then
@@ -26,4 +26,4 @@ tar -xf /tmp/nookbag.zip -C ./www/
 echo "Build process complete. Check the ./www folder for the generated site."
 
 echo "To view the site locally, run the following command: utilities/serve.sh"
-echo "If already running then browse to http://localhost:8443/index.html"
+echo "If already running then browse to http://localhost:8443/www/modules/index.html"

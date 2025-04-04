@@ -12,7 +12,7 @@
 ----
 ./utilities/lab-serve
 ----
-* Open *http://localhost:8080* in your browser
+* Open *http://localhost:8443/www/modules/index.html* in your browser
 
 Your lab should now update and it will look more or less like this:
 
