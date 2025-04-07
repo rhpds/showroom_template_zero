@@ -5,15 +5,15 @@ antora:
   dir: www
   modules:
     - name: index
-      label: "Module 1"
+      label: "Writing your lab"
     - name: module-02
-      label: "Module 2"
+      label: "Antora"
     - name: module-03
-      label: "Module 3"
+      label: "Tabs"
 
 tabs:
   - name: ">_ terminal"
-    type: "terminal"  # available types: terminal, double terminal
+    type: "terminal"  # available types: terminal, double-terminal
   - name: "Asciidoc Doc"
     url: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
     external: true
