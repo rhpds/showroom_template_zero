@@ -15,7 +15,7 @@ tabs:
 - `name`: The label that appears on the tab in the UI.
 - `type`: Defines the tab layout. Options include:
   - `terminal`: For a single terminal-like block.
-  - `double terminal`: For a side-by-side terminal view.
+  - `double-terminal`: For a side-by-side terminal view.
 - `url`: Used to link to an external page.
 - `path`: (If no url is defined) The base path where the service will be served, e.g., `/tty`.
 - `port`: (If no url is defined) The port where the service will be served, e.g., `3000`.
