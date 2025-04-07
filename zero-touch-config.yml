@@ -9,11 +9,11 @@ antora:
     - name: module-02
       label: "Module 2"
     - name: module-03
-      label: "Podman ps"
+      label: "Module 3"
 
 tabs:
-  - name: ">_ root"
-    port: 443
-    path: /tty1
-    user: root
-    host: bastion
+  - name: ">_ terminal"
+    type: "terminal"  # available types: terminal, double terminal
+  - name: "Asciidoc Doc"
+    url: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+    external: true

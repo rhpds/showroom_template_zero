@@ -38,15 +38,10 @@ Now you are ready to go!  You can start editing the files in the `content/module
         ├── assets
         │   └── images                       # Images used in your content 
         │       └── example-image.png
-        ├── examples                         # You can add downloadable assets here 
-        │   └── example-bash-script.sh       # e.g. an example bash script
-        ├── nav.adoc                         # Navigation for your lab
         ├── pages                            # Your content goes here
         │   ├── index.adoc                   # First module of your lab, e.g. overview etc 
         │   ├── module-02.adoc               # Second module of your lab  
         │   └── module-03.adoc               # Third module
-        └── partials                         # You can add partials here, reusable content inserted inline into your modules
-            └── example_partial.adoc
 ----
 
 . Playbook/Scripts Directory Structure
