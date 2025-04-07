@@ -1,8 +1,15 @@
 ---
 site:
-  title: "Change me, your title lives as site.title in ./zero-touch-site.yml"
-  url: https://redhat-scholars.github.io/course-template
+  title: "Change me, your title lives as site.title in zero-touch-site.yml"
+  url: https://github.com/rhpds/showroom_template_zero
   start_page: modules::index.adoc
+
+asciidoc:
+  attributes:
+    lab_name: "I'm the lab_name var"
+    release-version: master
+    page-pagination: true
+    my_var: "foo - this is an asciidoc attribute from `zero-touch-site.yml`"
 
 content:
   sources:
@@ -12,11 +19,6 @@ ui:
   bundle:
     url: https://github.com/rhpds/nookbag-bundle/releases/download/v0.0.2/bundle.zip
     snapshot: true
-  supplemental_files:
-    - path: ./content/supplemental-ui
-    - path: .nojekyll
-    - path: ui.yml
-      contents: "static_files: [ .nojekyll ]"
 
 output:
   dir: ./www/www
