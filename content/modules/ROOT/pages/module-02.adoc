@@ -1,6 +1,6 @@
 = Antora
 
-The `antora` key in `zero-touch-config.yml` defines how the documentation site is built using Antora.
+The `antora` key in `ui-config.yml` defines how the documentation site is built using Antora.
 
 [source,yaml]
 ----
